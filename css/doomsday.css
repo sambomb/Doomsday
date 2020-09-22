@@ -1,0 +1,41 @@
+#doomsday {
+  position: absolute;
+  width: 100%;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#doomsday,
+#doomsday .form-header {
+  color: #FC5C1E;
+}
+
+#doomsday-bar {
+  width: 500px;
+}
+
+#doomsday .form-header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  -webkit-text-stroke-width: 2px;
+}
+#doomsday .controls {
+  position: relative;
+}
+#doomsday .label {
+  position: absolute;
+  top: 22px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#doomsday .right-label {
+  right: 0;
+}
+#doomsday .left-label {
+  left: 0;
+}

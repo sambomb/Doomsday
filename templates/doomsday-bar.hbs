@@ -1,0 +1,12 @@
+<div id="doomsday">
+  <div id="doomsday-bar">
+    <form class="flexcol">
+      <h3 class="form-header">Countdown</h3>
+      <div class="form-group controls">
+        <input type="range" {{#unless isGM}}disabled{{/unless}} name="progress" value="{{ progress }}" min="0" max="100" step="1" data-dtype="Number"/>
+        <div class="label left-label">Left</div>
+        <div class="label right-label">Right</div>
+      </div>
+    </form>
+  </div>
+</div>
